@@ -18,3 +18,12 @@
     border: 2px solid #fff;
 }
 
+.correct {
+    background-color: #0bfc03;
+    font-weight: bold;
+}
+
+.wrong {
+    background-color: #3c0e70;
+    opacity: .4;
+}
