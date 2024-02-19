@@ -8,7 +8,8 @@ const initialState = {
     questions,
     currentQuestion: 0,
     score: 0,
-    answerSelected: false
+    answerSelected: false,
+    help: false
 }
 
 const quizReducer = (state, action) => {
@@ -57,7 +58,8 @@ const quizReducer = (state, action) => {
                 ...state,
                 currentQuestion: nextQuestion,
                 gameStage: endGame ? STAGES[3] : state.gameStage,
-                answerSelected: false
+                answerSelected: false,
+                help: false
             }
 
         case 'NEW_GAME':
@@ -76,6 +78,12 @@ const quizReducer = (state, action) => {
                 ...state,
                 score: state.score + correctAnswer,
                 answerSelected: option
+            }
+
+        case 'SHOW_TIP':
+            return {
+                ...state,
+                help: 'tip'
             }
 
         default:
