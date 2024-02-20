@@ -16,14 +16,6 @@
 
 #question button {
     border: 2px solid #fff;
+    margin: 0.5rem;
 }
 
-.correct {
-    background-color: #0bfc03;
-    font-weight: bold;
-}
-
-.wrong {
-    background-color: #3c0e70;
-    opacity: .4;
-}
