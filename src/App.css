@@ -7,6 +7,8 @@
     justify-content: center;
 }
 
-.App h1 {
-    margin-bottom: 2rem;
+@media (max-width: 490px) {
+    .App {
+        padding-top: 1rem;
+    }
 }
