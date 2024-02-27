@@ -87,25 +87,6 @@ const quizReducer = (state, action) => {
                 help: 'tip'
             }
 
-        case 'REMOVE_OPTION':
-            const questioWithoutOption = state.questions[state.currentQuestion];
-
-            let repeat = true;
-            let optionToHide;
-
-            questioWithoutOption.options.forEach((option) => {
-                if (option !== questioWithoutOption.answer && repeat) {
-                    optionToHide = option;
-                    repeat = false;
-                }
-            });
-
-            return {
-                ...state,
-                optionToHide,
-                help: true
-            }
-
         default:
             return state;
     }

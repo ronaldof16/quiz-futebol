@@ -19,7 +19,7 @@ const PickCategory = () => {
         <h2>Informações</h2>
         <ul>
           <li className='informacoes-itens'><span>✔︎</span> Cada tópico é composto por cinco perguntas, e cada pergunta possui apenas uma alternativa verdadeira.</li>
-          <li className='informacoes-itens'><span>✔︎</span> Em todas as perguntas você vai ter a opção de obter uma dica sobre a resposta correta ou excluir uma alternativa errada.</li>
+          <li className='informacoes-itens'><span>✔︎</span> Em todas as perguntas você vai ter a opção de obter uma dica sobre a resposta correta.</li>
           <li className='informacoes-itens'><span>✔︎</span> Ao selecionar uma alternativa não será possível fazer uma mudança para outra, e no mesmo momento o usuário vai saber se 
           acertou ou não a questão através da cor de fundo da alternativa: VERDE - CORRETA  e VERMELHO - ERRADA.</li>
         </ul>
