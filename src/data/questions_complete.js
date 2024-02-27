@@ -86,7 +86,7 @@ const data = [
         {
           question: "Em que ano o Brasil conquistou a primeira copa do mundo?",
           options: ["1954", "l958", "1962", "1966"],
-          answer: "1958",
+          answer: "l958",
           tip: "Foi na década de 50"
         },
         {
@@ -120,7 +120,7 @@ const data = [
         },
         {
           question: "Quem é o maior artilheiro da história da champions league?",
-          options: ["Messi", "Cristano Ronaldo", "Lewandowski", "Van Nistelrooy"],
+          options: ["Messi", "Cristiano Ronaldo", "Lewandowski", "Van Nistelrooy"],
           answer: "Cristiano Ronaldo",
           tip: "É português"
         },
@@ -155,7 +155,7 @@ const data = [
         },
         {
           question: "O maior artilheiro de todas as copas do mundo é:",
-          options: ["Ronaldo fenômeno", "Miroslav Kolse", "Messi", "Pelé"],
+          options: ["Ronaldo fenômeno", "Miroslav Klose", "Messi", "Pelé"],
           answer: "Miroslav Klose",
           tip: "Jogou pela Alemanha"
         },
