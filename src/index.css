@@ -8,7 +8,8 @@
 body, html {
   min-height: 100vh;  
   height: 100%;
-  background-color: #1c1c1c;  
+  /*background-color: #1c1c1c;*/
+  background-color: #458b6f;
 }
 
 img {
@@ -20,11 +21,11 @@ button {
   font-size: 1.2rem;
   cursor: pointer;
   padding: 0.8rem 1.5rem;
-  background: linear-gradient(90deg, rgba(132, 53, 222, 1) 0%, rgba(184, 84, 232, 1) 100%);
+  background: linear-gradient(90deg, rgb(64, 64, 139) 0%, rgb(24, 7, 123) 100%);
   border-radius: 3rem;
   border: none;
 }
 
 button:hover {
-  background: linear-gradient(90deg, rgba(184, 84, 232, 1) 0%, rgba(132, 53, 222, 1) 100%);
+  background: linear-gradient(90deg, rgba(24, 7, 123, 1) 0%, rgba(64, 64, 139, 1) 100%);
 }

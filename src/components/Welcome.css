@@ -7,18 +7,28 @@
     margin-bottom: 2rem;
 }
 
-#welcome h2, #welcome p {
+#welcome p {
     margin-bottom: 1rem;
 }
 
+#welcome h2 {
+    margin-bottom: 0.5rem;
+}
+
 #welcome p {
-    color: #8435de;
+    color: rgb(22, 4, 123);
+    font-size: 1.25rem;
 }
 
 #welcome button {
     margin-top: 1rem;
+    width: 50%;
 }
 
 #welcome img {
     margin-top: 2rem;
+    border-radius: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    box-sizing: border-box;
 }

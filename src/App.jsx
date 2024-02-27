@@ -12,7 +12,6 @@ import './App.css';
 function App() {
   const [quizState, dispatch] = useContext(QuizContext);
 
-
   return (
     <div className='App'>
       {quizState.gameStage === 'Start' && <Welcome />}

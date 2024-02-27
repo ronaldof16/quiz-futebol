@@ -1,10 +1,10 @@
 .option {
-    background-color: #a669c3;
+    background-color: rgb(22, 4, 123);
     border-radius: 0.5rem;
     padding: 1rem;
     margin-bottom: 1rem;
     cursor: pointer;
-    opacity: .8;
+    opacity: .7;
     transition: .4s;
 }
 
