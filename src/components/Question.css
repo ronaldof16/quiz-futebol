@@ -18,11 +18,11 @@
     border: 2px solid #fff;
     margin-top: 1rem;
     width: 50%;
-    background: linear-gradient(90deg, rgb(33, 103, 30) 0%, rgb(2, 93, 3) 100%);
+    background: linear-gradient(90deg, rgb(53, 180, 180) 0%, rgb(2, 85, 93) 100%);
 }
 
 #question button:hover {
-    background: linear-gradient(90deg, rgb(2, 93, 43) 0%, rgb(33, 103, 30) 100%);
+    background: linear-gradient(90deg, rgb(2, 85, 93) 0%, rgb(53, 180, 180) 100%);
 }
 
 @media(max-width: 600px) {
